@@ -37,3 +37,8 @@ export async function fetchRamosTrabalho(filtros) {
   );
   return response.data.result;
 }
+
+export async function fetchUsuariosHome(filtros) {
+  const response = await api.get(`/usuarios-home${filtros ? filtros : ""}`);
+  return response.data.result;
+}

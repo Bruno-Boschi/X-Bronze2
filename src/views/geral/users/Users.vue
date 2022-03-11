@@ -50,7 +50,7 @@
           mdi-pencil
         </v-icon>
         <v-icon small @click.stop="openDailogDelete(index)">
-          mdi-delete
+          mdi-deletenpm run
         </v-icon>
       </template>
       <template v-slot:no-data>
